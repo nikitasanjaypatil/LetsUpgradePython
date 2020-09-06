@@ -1,0 +1,134 @@
+Questions 1
+
+List and its default functions
+1- append(x) 	
+Adds an item (x) to the end of the list.
+
+2- extend(iterable) 	
+Extends the list by appending all the items from the iterable. This allows you to join two lists together.
+
+3- insert(i, x) 	
+Inserts an item at a given position. The first argument is the index of the element before which to insert.
+
+4- remove(x) 	
+Removes the first item from the list that has a value of x. Returns an error if there is no such item.
+
+5- pop([i]) 	
+Removes the item at the given position in the list, and returns it. If no index is specified, pop() removes and returns the last item in the list.
+
+6- clear() 	
+Removes all items from the list.
+
+7- count(x) 	
+Returns the number of times x appears in the list.
+
+8- len(s) 	
+Returns the number of items in the list.
+
+
+
+Questions 2
+
+Dictionary and its default functions
+
+1- clear()	- 
+Removes all the elements from the dictionary
+
+2- copy()
+Returns a copy of the dictionary
+
+3- fromkeys()	
+Returns a dictionary with the specified keys and value
+
+4- get()	
+Returns the value of the specified key
+
+5- items()	
+Returns a list containing a tuple for each key value pair
+
+6- keys()	
+Returns a list containing the dictionary's keys
+
+7- pop()	
+Removes the element with the specified key
+
+8- popitem()	
+Removes the last inserted key-value pair
+
+9- setdefault()	
+Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+
+10- update()	
+Updates the dictionary with the specified key-value pairs
+
+11- values()	
+Returns a list of all the values in the dictionary
+
+
+
+Questions 3
+
+Set and its default functions
+
+1- add()	
+Adds an element to the set
+
+2- clear()	
+Removes all the elements from the set
+
+3- copy()	
+Returns a copy of the set
+
+4- pop()	
+Removes an element from the set
+
+5- remove()	
+Removes the specified element
+
+6- union()	
+Return a set containing the union of sets
+
+7- update()	
+Update the set with the union of this set and others
+
+
+
+Questions 4
+
+Tuple and explore default functions
+
+1- count()	
+Returns the number of times a specified value occurs in a tuple
+
+2- index()	
+Searches the tuple for a specified value and returns the position of where it was found
+
+3- len()
+To determine how many items a tuple has.
+
+
+
+Questions 5
+
+Strings and explore default functions
+
+1- count()	
+Returns the number of times a specified value occurs in a string
+
+2- encode()	
+Returns an encoded version of the string
+
+3- find()	
+Searches the string for a specified value and returns the position of where it was found 
+
+4- isdigit()	
+Returns True if all characters in the string are digits
+
+5- join()	
+Joins the elements of an iterable to the end of the string
+
+6- upper()	
+Converts a string into upper case
+
+7- lower()	
+Converts a string into lower case
